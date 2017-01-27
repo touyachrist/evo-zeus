@@ -1,0 +1,28 @@
+﻿Построение начато 26.01.2013 22:38:00.
+     1>Проект "C:\Zeus projects\Tor+Zutick+Crypt\source\builder\builder.vcxproj" в узле 2 (целевые объекты build).
+     1>InitializeBuildStatus:
+         Обращение к "Release\builder.unsuccessfulbuild".
+       PostBuildEvent:
+         cd..\..
+         call make.cmd -b default
+         default
+         
+         :VCEnd
+         я╗┐================================================================================
+         ZeuS package builder.
+         ================================================================================
+         
+     1>EXEC : error : Failed to parse config file "C:\Zeus projects\Tor+Zutick+Crypt\configs\-b\config".
+         
+         "default" не является внутренней или внешней
+         командой, исполняемой программой или пакетным файлом.
+     1>C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\Microsoft.CppCommon.targets(113,5): error MSB3073: выход из команды "cd..\..
+C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\Microsoft.CppCommon.targets(113,5): error MSB3073: call make.cmd -b default
+C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\Microsoft.CppCommon.targets(113,5): error MSB3073: default
+C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\Microsoft.CppCommon.targets(113,5): error MSB3073: 
+C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\Microsoft.CppCommon.targets(113,5): error MSB3073: :VCEnd" с кодом 9009.
+     1>Построение проекта "C:\Zeus projects\Tor+Zutick+Crypt\source\builder\builder.vcxproj" завершено (целевые объекты build) с ошибкой.
+
+СБОЙ построения.
+
+Затраченное время: 00:00:00.30

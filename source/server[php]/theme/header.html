@@ -1,0 +1,154 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//RU" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+<head>
+<meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+  <title>Evolution</title>
+  <meta http-equiv="Content-Style-Type" content="text/css" />
+  <meta http-equiv="Content-Script-Type" content="text/javascript" />
+  <link rel="stylesheet" href="{THEME_HTTP_PATH}/style.css" type="text/css" />
+
+<script src="http://code.jquery.com/jquery-1.7.2.min.js" type="text/javascript" charset="utf-8"></script>
+<script type="text/javascript">
+$(document).ready(function(){
+	$('.show_window').click(function(){
+		console.log('ololo');
+		$('body').after('<div id="modal_window_background"></div>');
+		$('#modal_window').append('<a class="close_button" style="text-decoration:none;">&#215;</a>');
+		$('#modal_window').show(500);
+    });
+ 
+    $('.close_button').live('click',function(){
+        $('#modal_window').hide(500);
+        $('#modal_window_background').remove();
+    });
+})
+</script>
+ 
+<style type="text/css">
+#modal_window_background {
+	position: fixed;
+	background: rgba(0,0,0,.8);
+	width:100%;
+	height:100%;
+	top:0;
+	left:0;
+	z-index: 100;
+}
+#modal_window {
+	z-index:101;
+	background: #eee;
+	position: absolute;
+	left: 50%;
+  	margin-left: -200px;
+  	top:30%;
+  	padding: 15px;
+	-webkit-border-radius: 5px;
+	-moz-border-radius: 5px;
+	border-radius: 5px;
+	color: #000000;
+	display: none;
+}
+ 
+.close_button{
+	position: absolute;
+	top: -7px;
+	right: 3px;
+	color: #ac1219;
+	font-size:15pt;
+	font-weight: bold;
+	cursor:pointer;
+	padding: 5px;
+}
+
+.otstyp{
+top: 10px;}
+</style>
+
+
+
+{JAVASCRIPT}
+</head>
+
+<body{BODY_JS_EVENTS}>
+<div>|</div>
+<div id="sexy">
+<ul>
+
+<li class="sexy-main"><a href="mtanqste.php?m=stats_main" target="blank"><img src="theme/img/main.png" width="100" height="23" /></a></li>
+
+<li class="sexy-bots"><a href="mtanqste.php?m=botnet_bots"><img src="theme/img/bots.png" width="100" height="23" /></a></li>
+
+<li class="sexy-db"><a href="mtanqste.php?m=reports_db"><img src="theme/img/database.png" width="100" height="23" /></a></li>
+
+<li class="sexy-files"><a href="mtanqste.php?m=reports_files"><img src="theme/img/files.png" width="100" height="23" /></a></li>
+
+
+</ul>
+
+<ul>
+
+
+<li class="sex-os"><a href="mtanqste.php?m=stats_os"><img src="theme/img/os.png" width="100" height="23" /></a></li>
+
+<li class="sex-scripts"><a href="mtanqste.php?m=botnet_scripts"><img src="theme/img/script.png" width="100" height="23" /></a></li>
+
+<li class="sexy-grabber"><a href="mtanqste.php?rm=0&amp;m=reports_db&amp;date1=010112&amp;date2=121213&amp;bots=&amp;botnets=&amp;ips=&amp;countries=&amp;q=Grabbed+C.C&amp;blt=0"><img src="theme/img/ccgrabber.png" width="100" height="23" /></a></li>
+
+<li class="sexy-jabber"><a href="mtanqste.php?m=reports_jn"><img src="theme/img/jabber.png" width="100" height="23" /></a></li>
+
+<li class="sexy-ddos"><a href="mtanqste.php?m=botnet_scripts&amp;view=1" target="_blank" ><img src="theme/img/ddos.png" width="100" height="23" /></a></li>
+
+<li class="sexy-vpn"><a href="javascript:void(0)" onclick="window.open('vpn.php','Stat','width=300, height=300')" ><img src="theme/img/vpn.png" width="100" height="23" /></a></li>
+
+</ul>
+
+
+<ul>
+<li class="sexy-bank"><a href="javascript:void(0)" onclick="window.open('bank.php?login=jkhjkhhkfrbank','Stat','width=300, height=600, status=0, menubar=0, location=0, resizable=0, directories=0, toolbar=0, scrollbar=0')" ><img src="theme/img/bank.png" width="100" height="23" /></a></li>
+
+<li class="sexy-module"><a href="javascript:void(0)" onclick="window.open('module.php?login=jkhjkhhkfmodule','Stat','width=300, height=600, status=0, menubar=0, location=0, resizable=0, directories=0, toolbar=0, scrollbar=0')" ><img src="theme/img/module.png" width="100" height="23" /></a></li>
+
+<li class="sex-information"><a href="mtanqste.php?m=sys_info"><img src="theme/img/info.png" width="100" height="23" /></a></li>
+
+<li class="sex-options"><a href="mtanqste.php?m=sys_options"><img src="theme/img/option.png" width="100" height="23" /></a></li>
+
+<li class="sex-user"><a href="mtanqste.php?m=sys_user"><img src="theme/img/user.png" width="100" height="23" /></a></li>
+
+<li class="sex-users"><a href="mtanqste.php?m=sys_users"><img src="theme/img/users.png" width="100" height="23" /></a></li>
+
+<li class="sex-exit"><a href="mtanqste.php?m=logout"><img src="theme/img/logout.png" width="100" height="23" /></a></li>
+<li class="sex-ibank"><a href="mtanqste.php?rm=0&amp;m=reports_db&amp;date1=010112&amp;date2=121213&amp;bots=&amp;botnets=&amp;ips=&amp;countries=&amp;q=Bank+Hash&amp;blt=0"><img src="theme/img/ibank.png" width="100" height="23" /></a></li>
+
+</ul>
+
+<ul>
+<li class="sex-users"><a href="mtanqste.php?m=bank_statistics"><img src="theme/img/istat.png" width="100" height="23" /></a></li>
+<li class="sexy-faq"><a href="javascript:void(0)" onclick="window.open('faq.php','Stat','width=300, height=300')" ><img src="theme/img/faq.png" width="100" height="23" /></a></li>
+
+<li class="sexy-liberty"><a href="javascript:void(0)" onclick="window.open('lr.php?login=libertyforpro','Stat','width=300, height=400, status=0, menubar=0, location=0, resizable=0, directories=0, toolbar=0, scrollbar=0')" ><img src="theme/img/liberty.png" width="100" height="23" /></a></li>
+
+<li class="sexy-rbkmoney"><a href="javascript:void(0)" onclick="window.open('rbk.php?login=rbkfromrussia','Stat','width=300, height=520, status=0, menubar=0, location=0, resizable=0, directories=0, toolbar=0, scrollbar=0')" ><img src="theme/img/rbk.png" width="100" height="23" /></a></li>
+
+<li class="sexy-perfectmoney"><a href="javascript:void(0)" onclick="window.open('pm.php?login=perfectmoneyperfect','Stat','width=320, height=300, status=0, menubar=0, location=0, resizable=0, directories=0, toolbar=0, scrollbar=0')" ><img src="theme/img/perfect.png" width="100" height="23" /></a></li>
+
+<li class="sexy-webmoney"><a href="javascript:void(0)" onclick="window.open('wm.php?login=toomuchmoneyintheweb','Stat','width=300, height=520, status=0, menubar=0, location=0, resizable=0, directories=0, toolbar=0, scrollbar=0')" ><img src="theme/img/webmoney.png" width="100" height="23" /></a></li>
+
+<li class="sexy-yandex"><a href="javascript:void(0)" onclick="window.open('ym.php?login=simplerussianmoney','Stat','width=320, height=500, status=0, menubar=0, location=0, resizable=0, directories=0, toolbar=0, scrollbar=0')" ><img src="theme/img/yandex.png" width="100" height="23" /></a></li>
+
+<li class="sexy-qiwi"><a href="javascript:void(0)" onclick="window.open('qw.php?login=veryverysexyqiwiii','Stat','width=320, height=500, status=0, menubar=0, location=0, resizable=0, directories=0, toolbar=0, scrollbar=0')" ><img src="theme/img/qiwi.png" width="100" height="23" /></a></li>
+
+
+</ul>
+
+</div>
+
+<table border="0" cellspacing="0" cellpadding="0" style="width:100%">
+
+<tr>
+  <td class="menu" valign="top">
+    <div class="menu_header">{INFO_TITLE}</div>
+    
+    {MAINMENU}
+  </td>
+  <td class="context" valign="top" align="center">

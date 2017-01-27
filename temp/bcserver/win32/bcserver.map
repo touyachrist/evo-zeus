@@ -1,0 +1,169 @@
+ zsbcs
+
+ Timestamp is 51019055 (Thu Jan 24 23:49:41 2013)
+
+ Preferred load address is 00400000
+
+ Start         Length     Name                   Class
+ 0001:00000000 000000dcH .idata$5                CODE
+ 0001:000000e0 00000bc6H .rdata                  CODE
+ 0001:00000ca6 000015b5H .text                   CODE
+ 0001:0000225c 00000050H .idata$2                CODE
+ 0001:000022ac 00000014H .idata$3                CODE
+ 0001:000022c0 000000dcH .idata$4                CODE
+ 0001:0000239c 000002baH .idata$6                CODE
+ 0001:00002656 00000000H .edata                  CODE
+ 0002:00000000 00000008H .data                   DATA
+ 0002:00000008 00001010H .bss                    DATA
+
+  Address         Publics by Value              Rva+Base       Lib:Object
+
+ 0001:00000000       __imp__GetConsoleMode@8    00401000     kernel32:KERNEL32.dll
+ 0001:00000004       __imp__HeapDestroy@4       00401004     kernel32:KERNEL32.dll
+ 0001:00000008       __imp__HeapCreate@12       00401008     kernel32:KERNEL32.dll
+ 0001:0000000c       __imp__WriteConsoleW@20    0040100c     kernel32:KERNEL32.dll
+ 0001:00000010       __imp__MultiByteToWideChar@24 00401010     kernel32:KERNEL32.dll
+ 0001:00000014       __imp__GetStdHandle@4      00401014     kernel32:KERNEL32.dll
+ 0001:00000018       __imp__SetLastError@4      00401018     kernel32:KERNEL32.dll
+ 0001:0000001c       __imp__GetFileType@4       0040101c     kernel32:KERNEL32.dll
+ 0001:00000020       __imp__WaitForMultipleObjects@16 00401020     kernel32:KERNEL32.dll
+ 0001:00000024       __imp__CloseHandle@4       00401024     kernel32:KERNEL32.dll
+ 0001:00000028       __imp__WriteFile@20        00401028     kernel32:KERNEL32.dll
+ 0001:0000002c       __imp__CreateThread@24     0040102c     kernel32:KERNEL32.dll
+ 0001:00000030       __imp__ExitProcess@4       00401030     kernel32:KERNEL32.dll
+ 0001:00000034       __imp__GetCommandLineW@0   00401034     kernel32:KERNEL32.dll
+ 0001:00000038       __imp__GetModuleFileNameW@12 00401038     kernel32:KERNEL32.dll
+ 0001:0000003c       __imp__SetEvent@4          0040103c     kernel32:KERNEL32.dll
+ 0001:00000040       __imp__InitializeCriticalSection@4 00401040     kernel32:KERNEL32.dll
+ 0001:00000044       __imp__LeaveCriticalSection@4 00401044     kernel32:KERNEL32.dll
+ 0001:00000048       __imp__GetLastError@0      00401048     kernel32:KERNEL32.dll
+ 0001:0000004c       __imp__EnterCriticalSection@4 0040104c     kernel32:KERNEL32.dll
+ 0001:00000050       __imp__SetConsoleCtrlHandler@8 00401050     kernel32:KERNEL32.dll
+ 0001:00000054       __imp__CreateEventW@16     00401054     kernel32:KERNEL32.dll
+ 0001:00000058       __imp__DeleteCriticalSection@4 00401058     kernel32:KERNEL32.dll
+ 0001:0000005c       __imp__GetProcessHeap@0    0040105c     kernel32:KERNEL32.dll
+ 0001:00000060       __imp__GetTickCount@0      00401060     kernel32:KERNEL32.dll
+ 0001:00000064       __imp__HeapReAlloc@16      00401064     kernel32:KERNEL32.dll
+ 0001:00000068       __imp__WaitForSingleObject@8 00401068     kernel32:KERNEL32.dll
+ 0001:0000006c       __imp__HeapFree@12         0040106c     kernel32:KERNEL32.dll
+ 0001:00000070       __imp__HeapAlloc@12        00401070     kernel32:KERNEL32.dll
+ 0001:00000074       __imp__LocalFree@4         00401074     kernel32:KERNEL32.dll
+ 0001:00000078       \177KERNEL32_NULL_THUNK_DATA 00401078     kernel32:KERNEL32.dll
+ 0001:0000007c       __imp__CommandLineToArgvW@8 0040107c     shell32:SHELL32.dll
+ 0001:00000080       \177SHELL32_NULL_THUNK_DATA 00401080     shell32:SHELL32.dll
+ 0001:00000084       __imp__PathFindFileNameW@4 00401084     shlwapi:SHLWAPI.dll
+ 0001:00000088       __imp__PathUnquoteSpacesW@4 00401088     shlwapi:SHLWAPI.dll
+ 0001:0000008c       __imp__StrChrW@8           0040108c     shlwapi:SHLWAPI.dll
+ 0001:00000090       __imp__wvnsprintfW@16      00401090     shlwapi:SHLWAPI.dll
+ 0001:00000094       \177SHLWAPI_NULL_THUNK_DATA 00401094     shlwapi:SHLWAPI.dll
+ 0001:00000098       __imp__listen@8            00401098     ws2_32:WS2_32.dll
+ 0001:0000009c       __imp__send@16             0040109c     ws2_32:WS2_32.dll
+ 0001:000000a0       __imp__closesocket@4       004010a0     ws2_32:WS2_32.dll
+ 0001:000000a4       __imp__WSASetLastError@4   004010a4     ws2_32:WS2_32.dll
+ 0001:000000a8       __imp__socket@12           004010a8     ws2_32:WS2_32.dll
+ 0001:000000ac       __imp__recv@16             004010ac     ws2_32:WS2_32.dll
+ 0001:000000b0       __imp__WSACleanup@0        004010b0     ws2_32:WS2_32.dll
+ 0001:000000b4       __imp__setsockopt@20       004010b4     ws2_32:WS2_32.dll
+ 0001:000000b8       __imp__shutdown@8          004010b8     ws2_32:WS2_32.dll
+ 0001:000000bc       __imp__WSAGetLastError@0   004010bc     ws2_32:WS2_32.dll
+ 0001:000000c0       __imp__select@20           004010c0     ws2_32:WS2_32.dll
+ 0001:000000c4       __imp__WSAStartup@8        004010c4     ws2_32:WS2_32.dll
+ 0001:000000c8       __imp__WSAAddressToStringW@20 004010c8     ws2_32:WS2_32.dll
+ 0001:000000cc       __imp__WSAIoctl@36         004010cc     ws2_32:WS2_32.dll
+ 0001:000000d0       __imp__accept@12           004010d0     ws2_32:WS2_32.dll
+ 0001:000000d4       __imp__bind@12             004010d4     ws2_32:WS2_32.dll
+ 0001:000000d8       \177WS2_32_NULL_THUNK_DATA 004010d8     ws2_32:WS2_32.dll
+ 0001:000000e0       ??_C@_11LOCGONAA@?$AA?$AA@ 004010e0     common.obj
+ 0001:000000e4       ??_C@_17EKNKKPIB@?$AA0?$AA?3?$AA0?$AA?$AA@ 004010e4     common.obj
+ 0001:000000ec       ??_C@_1BE@PNMLBEGE@?$AA?$CF?$AA?9?$AA2?$AA0?$AAs?$AA?5?$AA?$CF?$AAs?$AA?6?$AA?$AA@ 004010ec     common.obj
+ 0001:00000100       ??_C@_1BK@BKKBCCCB@?$AA?5?$AA?5?$AA?9?$AA?$CF?$AA?9?$AA1?$AA7?$AAs?$AA?5?$AA?$CF?$AAs?$AA?6?$AA?$AA@ 00401100     common.obj
+ 0001:00000120       ??_C@_1FA@KMPFAEDL@?$AAS?$AAt?$AAa?$AAr?$AAt?$AA?5?$AAa?$AA?5?$AAb?$AAa?$AAc?$AAk?$AAc?$AAo?$AAn?$AAn?$AAe?$AAc?$AAt?$AA?5?$AAs?$AAe?$AAr?$AAv?$AAe?$AAr?$AA?5?$AAf?$AAo?$AAr?$AA?5?$AAo@ 00401120     core.obj
+ 0001:00000170       ??_C@_1O@ILDDHBIN@?$AAl?$AAi?$AAs?$AAt?$AAe?$AAn?$AA?$AA@ 00401170     core.obj
+ 0001:00000180       ??_C@_1GC@BPGKEJNC@?$AAT?$AAC?$AAP?$AA?5?$AAp?$AAo?$AAr?$AAt?$AA?5?$AAf?$AAo?$AAr?$AA?5?$AAa?$AAc?$AAc?$AAe?$AAp?$AAt?$AAi?$AAn?$AAg?$AA?5?$AAa?$AA?5?$AAc?$AAo?$AAn?$AAn?$AAe?$AAc?$AAt@ 00401180     core.obj
+ 0001:000001e4       ??_C@_1BE@JHHAJCBO@?$AAc?$AAp?$AA?3?$AA?$FL?$AAp?$AAo?$AAr?$AAt?$AA?$FN?$AA?$AA@ 004011e4     core.obj
+ 0001:000001f8       ??_C@_1FM@CIIPDHCK@?$AAT?$AAC?$AAP?$AA?5?$AAp?$AAo?$AAr?$AAt?$AA?5?$AAf?$AAo?$AAr?$AA?5?$AAa?$AAc?$AAc?$AAe?$AAp?$AAt?$AAi?$AAn?$AAg?$AA?5?$AAa?$AA?5?$AAc?$AAo?$AAn?$AAn?$AAe?$AAc?$AAt@ 004011f8     core.obj
+ 0001:00000254       ??_C@_1BE@PCBHKJFI@?$AAb?$AAp?$AA?3?$AA?$FL?$AAp?$AAo?$AAr?$AAt?$AA?$FN?$AA?$AA@ 00401254     core.obj
+ 0001:00000268       ??_C@_1CK@PEAOHFLC@?$AAL?$AAi?$AAs?$AAt?$AAe?$AAn?$AA?5?$AAo?$AAn?$AA?5?$AAI?$AAP?$AAv?$AA6?$AA?5?$AAp?$AAo?$AAr?$AAt?$AA?4?$AA?$AA@ 00401268     core.obj
+ 0001:00000294       ??_C@_19JFOMGAAC@?$AAi?$AAp?$AAv?$AA6?$AA?$AA@ 00401294     core.obj
+ 0001:000002a0       ??_C@_1CK@HDKOFANB@?$AAL?$AAi?$AAs?$AAt?$AAe?$AAn?$AA?5?$AAo?$AAn?$AA?5?$AAI?$AAP?$AAv?$AA4?$AA?5?$AAp?$AAo?$AAr?$AAt?$AA?4?$AA?$AA@ 004012a0     core.obj
+ 0001:000002cc       ??_C@_19DPOFKIIJ@?$AAi?$AAp?$AAv?$AA4?$AA?$AA@ 004012cc     core.obj
+ 0001:000002d8       ??_C@_1EM@PGMKKGAH@?$AAS?$AAu?$AAp?$AAp?$AAr?$AAe?$AAs?$AAs?$AAe?$AAs?$AA?5?$AAd?$AAi?$AAs?$AAp?$AAl?$AAa?$AAy?$AA?5?$AAo?$AAf?$AA?5?$AAs?$AAi?$AAg?$AAn?$AA?9?$AAo?$AAn?$AA?5?$AAb?$AAa@ 004012d8     core.obj
+ 0001:00000324       ??_C@_1O@IHGACBLG@?$AAn?$AAo?$AAl?$AAo?$AAg?$AAo?$AA?$AA@ 00401324     core.obj
+ 0001:00000370       ??_C@_1JI@DLLBKFLO@?$AAZ?$AAe?$AAu?$AAS?$AA?5?$AAB?$AAa?$AAc?$AAk?$AAc?$AAo?$AAn?$AAn?$AAe?$AAc?$AAt?$AA?5?$AAS?$AAe?$AAr?$AAv?$AAe?$AAr?$AA?5?$AA?$CF?$AAu?$AA?4?$AA?$CF?$AAu?$AA?4?$AA?$CF?$AAu@ 00401370     core.obj
+ 0001:00000408       ??_C@_1FM@PIJHPOBL@?$AAU?$AAs?$AAa?$AAg?$AAe?$AA?3?$AA?5?$AA?$CF?$AAs?$AA?5?$AA?$DM?$AAc?$AAo?$AAm?$AAm?$AAa?$AAn?$AAd?$AA?$DO?$AA?5?$AA?9?$AA?$DM?$AAs?$AAw?$AAi?$AAt?$AAc?$AAh?$AA?5?$AA1?$AA?$DO?$AA?5@ 00401408     core.obj
+ 0001:00000464       ??_C@_1DM@DNPBHPDF@?$AAE?$AAR?$AAR?$AAO?$AAR?$AA?3?$AA?5?$AAU?$AAn?$AAk?$AAn?$AAo?$AAw?$AAn?$AA?5?$AAc?$AAo?$AAm?$AAm?$AAa?$AAn?$AAd?$AA?5?$AA?$CC?$AA?$CF?$AAs?$AA?$CC?$AA?4?$AA?6?$AA?$AA@ 00401464     core.obj
+ 0001:000004a0       ??_C@_1DG@HNOOEEKI@?$AAE?$AAR?$AAR?$AAO?$AAR?$AA?3?$AA?5?$AAS?$AAy?$AAn?$AAt?$AAa?$AAx?$AA?5?$AAe?$AAr?$AAr?$AAo?$AAr?$AA?5?$AA?$CC?$AA?$CF?$AAs?$AA?$CC?$AA?4?$AA?6?$AA?$AA@ 004014a0     core.obj
+ 0001:000004d8       ??_C@_1DK@JNGFIECK@?$AAE?$AAR?$AAR?$AAO?$AAR?$AA?3?$AA?5?$AAU?$AAn?$AAk?$AAn?$AAo?$AAw?$AAn?$AA?5?$AAs?$AAw?$AAi?$AAt?$AAc?$AAh?$AA?5?$AA?$CC?$AA?$CF?$AAs?$AA?$CC?$AA?4?$AA?6?$AA?$AA@ 004014d8     core.obj
+ 0001:00000514       ??_C@_1DK@KPNNPOKJ@?$AAS?$AAe?$AAs?$AAs?$AAi?$AAo?$AAn?$AA?5?$AAc?$AAr?$AAe?$AAa?$AAt?$AAe?$AAd?$AA?5?$AAf?$AAo?$AAr?$AA?5?$AAI?$AAD?$AA?3?$AA?5?$AA?$CF?$AAu?$AA?4?$AA?6?$AA?$AA@ 00401514     listen.obj
+ 0001:00000550       ??_C@_1CI@GBBAJFIA@?$AAT?$AAi?$AAm?$AAe?$AAo?$AAu?$AAt?$AA?5?$AAf?$AAo?$AAr?$AA?5?$AAI?$AAD?$AA?5?$AA?$CF?$AAu?$AA?4?$AA?6?$AA?$AA@ 00401550     listen.obj
+ 0001:00000578       ??_C@_1IM@EENLBLEF@?$AAF?$AAa?$AAi?$AAl?$AAe?$AAd?$AA?5?$AAt?$AAo?$AA?5?$AAa?$AAc?$AAc?$AAe?$AAp?$AAt?$AAe?$AAd?$AA?5?$AAn?$AAe?$AAw?$AA?5?$AAc?$AAo?$AAn?$AAe?$AAc?$AAt?$AAi?$AAo?$AAn@ 00401578     listen.obj
+ 0001:00000604       ??_C@_13IMODFHAA@?$AA?9?$AA?$AA@ 00401604     listen.obj
+ 0001:00000608       ??_C@_1GM@FCHOEAFI@?$AAA?$AAc?$AAc?$AAe?$AAp?$AAt?$AAe?$AAd?$AA?5?$AAn?$AAe?$AAw?$AA?5?$AAc?$AAo?$AAn?$AAe?$AAc?$AAt?$AAi?$AAo?$AAn?$AA?5?$AAf?$AAr?$AAo?$AAm?$AA?5?$AAb?$AAo?$AAt?$AA?5@ 00401608     listen.obj
+ 0001:00000678       ??_C@_1HG@GIKMDFKC@?$AAF?$AAa?$AAi?$AAl?$AAe?$AAd?$AA?5?$AAt?$AAo?$AA?5?$AAa?$AAc?$AAc?$AAe?$AAp?$AAt?$AAe?$AAd?$AA?5?$AAn?$AAe?$AAw?$AA?5?$AAc?$AAo?$AAn?$AAe?$AAc?$AAt?$AAi?$AAo?$AAn@ 00401678     listen.obj
+ 0001:000006f0       ??_C@_1IA@OMLJDJOK@?$AAF?$AAa?$AAi?$AAl?$AAe?$AAd?$AA?5?$AAt?$AAo?$AA?5?$AAa?$AAc?$AAc?$AAe?$AAp?$AAt?$AAe?$AAd?$AA?5?$AAn?$AAe?$AAw?$AA?5?$AAc?$AAo?$AAn?$AAe?$AAc?$AAt?$AAi?$AAo?$AAn@ 004016f0     listen.obj
+ 0001:00000770       ??_C@_1FO@JDKAKLGM@?$AAF?$AAa?$AAi?$AAl?$AAe?$AAd?$AA?5?$AAt?$AAo?$AA?5?$AAa?$AAc?$AAc?$AAe?$AAp?$AAt?$AAe?$AAd?$AA?5?$AAn?$AAe?$AAw?$AA?5?$AAc?$AAo?$AAn?$AAe?$AAc?$AAt?$AAi?$AAo?$AAn@ 00401770     listen.obj
+ 0001:000007d0       ??_C@_1LG@GGPDGIHA@?$AAA?$AAc?$AAc?$AAe?$AAp?$AAt?$AAe?$AAd?$AA?5?$AAn?$AAe?$AAw?$AA?5?$AAc?$AAo?$AAn?$AAe?$AAc?$AAt?$AAi?$AAo?$AAn?$AA?5?$AAf?$AAr?$AAo?$AAm?$AA?5?$AAc?$AAl?$AAi?$AAe@ 004017d0     listen.obj
+ 0001:00000888       ??_C@_1GM@CEEDPAOE@?$AAA?$AAc?$AAc?$AAe?$AAp?$AAt?$AAe?$AAd?$AA?5?$AAn?$AAe?$AAw?$AA?5?$AAc?$AAo?$AAn?$AAe?$AAc?$AAt?$AAi?$AAo?$AAn?$AA?5?$AAf?$AAr?$AAo?$AAm?$AA?5?$AAc?$AAl?$AAi?$AAe@ 00401888     listen.obj
+ 0001:000008f8       ??_C@_1FO@HPKMPBKP@?$AAE?$AAR?$AAR?$AAO?$AAR?$AA?3?$AA?5?$AAF?$AAa?$AAi?$AAl?$AAe?$AAd?$AA?5?$AAt?$AAo?$AA?5?$AAc?$AAr?$AAe?$AAa?$AAt?$AAe?$AA?5?$AAn?$AAe?$AAw?$AA?5?$AAt?$AAh?$AAr?$AAe@ 004018f8     listen.obj
+ 0001:00000958       ??_C@_1CG@MNKHGFPB@?$AAS?$AAo?$AAc?$AAk?$AAe?$AAt?$AA?5?$AAe?$AAr?$AAr?$AAo?$AAr?$AA?3?$AA?5?$AA?$CF?$AAu?$AA?4?$AA?6?$AA?$AA@ 00401958     listen.obj
+ 0001:00000980       ??_C@_1DE@ILCHCMNB@?$AA?6?$AAS?$AAh?$AAu?$AAt?$AAt?$AAi?$AAn?$AAg?$AA?5?$AAd?$AAo?$AAw?$AAn?$AA?5?$AAs?$AAe?$AAr?$AAv?$AAe?$AAr?$AA?4?$AA?4?$AA?4?$AA?6?$AA?$AA@ 00401980     listen.obj
+ 0001:000009b8       ??_C@_1FE@JCDEIIAJ@?$AAE?$AAR?$AAR?$AAO?$AAR?$AA?3?$AA?5?$AAF?$AAa?$AAi?$AAl?$AAe?$AAd?$AA?5?$AAt?$AAo?$AA?5?$AAl?$AAi?$AAs?$AAt?$AAe?$AAn?$AA?5?$AAo?$AAn?$AA?5?$AAI?$AAP?$AAv?$AA4?$AA?5@ 004019b8     listen.obj
+ 0001:00000a0c       ??_C@_1DI@JANFEIJ@?$AAL?$AAi?$AAs?$AAt?$AAe?$AAn?$AAi?$AAn?$AAg?$AA?5?$AAo?$AAn?$AA?5?$AAI?$AAP?$AAv?$AA4?$AA?5?$AAp?$AAo?$AAr?$AAt?$AA?5?$AA?$CF?$AAu?$AA?4?$AA?6?$AA?$AA@ 00401a0c     listen.obj
+ 0001:00000a48       ??_C@_1FE@ELAPEEAG@?$AAE?$AAR?$AAR?$AAO?$AAR?$AA?3?$AA?5?$AAF?$AAa?$AAi?$AAl?$AAe?$AAd?$AA?5?$AAt?$AAo?$AA?5?$AAl?$AAi?$AAs?$AAt?$AAe?$AAn?$AA?5?$AAo?$AAn?$AA?5?$AAI?$AAP?$AAv?$AA6?$AA?5@ 00401a48     listen.obj
+ 0001:00000a9c       ??_C@_1DI@NADGJIIG@?$AAL?$AAi?$AAs?$AAt?$AAe?$AAn?$AAi?$AAn?$AAg?$AA?5?$AAo?$AAn?$AA?5?$AAI?$AAP?$AAv?$AA6?$AA?5?$AAp?$AAo?$AAr?$AAt?$AA?5?$AA?$CF?$AAu?$AA?4?$AA?6?$AA?$AA@ 00401a9c     listen.obj
+ 0001:00000ad4       ??_C@_15GADOFAJB@?$AAb?$AAp?$AA?$AA@ 00401ad4     listen.obj
+ 0001:00000adc       ??_C@_15KLGCIDDE@?$AAc?$AAp?$AA?$AA@ 00401adc     listen.obj
+ 0001:00000ae8       ??_C@_1EG@DMNIBKE@?$AA?6?$AAP?$AAl?$AAe?$AAa?$AAs?$AAe?$AA?5?$AAt?$AAy?$AAp?$AAe?$AA?5?$AAa?$AA?5?$AAc?$AAo?$AAr?$AAr?$AAe?$AAc?$AAt?$AA?5?$AAT?$AAC?$AAP?$AA?5?$AAp?$AAo?$AAr?$AAt?$AAs@ 00401ae8     listen.obj
+ 0001:00000b30       ??_C@_1FA@LGMMKGDL@?$AAE?$AAR?$AAR?$AAO?$AAR?$AA?3?$AA?5?$AAF?$AAa?$AAi?$AAl?$AAe?$AAd?$AA?5?$AAt?$AAo?$AA?5?$AAi?$AAn?$AAi?$AAt?$AAi?$AAa?$AAl?$AAi?$AAz?$AAe?$AA?5?$AAW?$AAi?$AAn?$AAS@ 00401b30     listen.obj
+ 0001:00000b80       ??_C@_1CO@FGBKDLHI@?$AAE?$AAR?$AAR?$AAO?$AAR?$AA?3?$AA?5?$AAU?$AAn?$AAk?$AAn?$AAo?$AAw?$AAn?$AA?5?$AAe?$AAr?$AAr?$AAo?$AAr?$AA?4?$AA?6?$AA?$AA@ 00401b80     listen.obj
+ 0001:00000bb0       ??_C@_1OC@OANAEKPN@?$AA?6?$AAP?$AAr?$AAe?$AAs?$AAs?$AA?5?$AAC?$AAt?$AAr?$AAl?$AA?$CL?$AAC?$AA?5?$AAk?$AAe?$AAy?$AA?5?$AAt?$AAo?$AA?5?$AAs?$AAh?$AAu?$AAt?$AAd?$AAo?$AAw?$AAn?$AA?5?$AAs?$AAe@ 00401bb0     listen.obj
+ 0001:00000c94       ??_C@_1BC@LGEPMBFP@?$AA?6?$AAR?$AAe?$AAa?$AAd?$AAy?$AA?$CB?$AA?6?$AA?$AA@ 00401c94     listen.obj
+ 0001:00000ca6       ?reallocEx@Mem@@YI_NPAXK@Z 00401ca6 f   common.obj
+ 0001:00000ceb       ?alloc@Mem@@YIPAXK@Z       00401ceb f   common.obj
+ 0001:00000d03       ?free@Mem@@YIXPAX@Z        00401d03 f   common.obj
+ 0001:00000d1f       ?_copy@Mem@@YGXPAXPBXK@Z   00401d1f f   common.obj
+ 0001:00000d36       ?_set@Mem@@YGXPAXDK@Z      00401d36 f   common.obj
+ 0001:00000e34       ?_ToInt32W@Str@@YIHPA_WPA_N@Z 00401e34 f   common.obj
+ 0001:00000ecb       ?_LengthA@Str@@YIHPBD@Z    00401ecb f   common.obj
+ 0001:00000edd       ?_LengthW@Str@@YIHPB_W@Z   00401edd f   common.obj
+ 0001:00000ef1       ?_CompareW@Str@@YIHPB_W0HH@Z 00401ef1 f   common.obj
+ 0001:00000fa6       ?_findCharW@Str@@YIPA_WQA_W_W@Z 00401fa6 f   common.obj
+ 0001:00000fc2       ?_vsprintfExW@Str@@YIHPAPA_WPB_WPAD@Z 00401fc2 f   common.obj
+ 0001:00000ff8       ?genrand_int32@@YIKXZ      00401ff8 f   common.obj
+ 0001:000010ec       ?mtRand@Crypt@@YIKXZ       004020ec f   common.obj
+ 0001:00001138       ?tcpRecvAll@WSocket@@YI_NIPAXHK@Z 00402138 f   common.obj
+ 0001:000011a4       ?tcpRecvAllToNull@WSocket@@YI_NIHK@Z 004021a4 f   common.obj
+ 0001:000011d2       ?tcpListen@WSocket@@YIIPBUsockaddr_storage@@H@Z 004021d2 f   common.obj
+ 0001:00001223       ?tcpTunnelAndWaitForWinEvent@WSocket@@YIXIIPAX@Z 00402223 f   common.obj
+ 0001:0000130c       ?tcpWaitForEvent@WSocket@@YIIPBIKK0K@Z 0040230c f   common.obj
+ 0001:000013a3       ?tcpClose@WSocket@@YIXI@Z  004023a3 f   common.obj
+ 0001:000013b9       ?writeStringW@Console@@YIKPA_WK@Z 004023b9 f   common.obj
+ 0001:00001403       ?writeFormatW@Console@@YAKPA_WZZ 00402403 f   common.obj
+ 0001:0000143c       ?_checkSwitches@Cui@@YIKPBQA_WHPBUSWITCH@1@E@Z 0040243c f   common.obj
+ 0001:0000150e       ?_getSwitchValue@Cui@@YIPA_WPBQA_WKQA_W@Z 0040250e f   common.obj
+ 0001:0000158f       ?_showHelp@Cui@@YIXPBUCOMMAND@1@EQA_W1@Z 0040258f f   common.obj
+ 0001:000015e6       ?showLogo@Core@@YIXXZ      004025e6 f   core.obj
+ 0001:000015fc       ?entryPoint@@YGXXZ         004025fc f   core.obj
+ 0001:00001ff4       ?commandListen@@YIXPAPA_WK@Z 00402ff4 f   listen.obj
+ 0001:0000225c       __IMPORT_DESCRIPTOR_KERNEL32 0040325c     kernel32:KERNEL32.dll
+ 0001:00002270       __IMPORT_DESCRIPTOR_SHLWAPI 00403270     shlwapi:SHLWAPI.dll
+ 0001:00002284       __IMPORT_DESCRIPTOR_SHELL32 00403284     shell32:SHELL32.dll
+ 0001:00002298       __IMPORT_DESCRIPTOR_WS2_32 00403298     ws2_32:WS2_32.dll
+ 0001:000022ac       __NULL_IMPORT_DESCRIPTOR   004032ac     kernel32:KERNEL32.dll
+ 0002:00000de0       ?coreData@@3UCOREDATA@@A   00404de0     core.obj
+
+ entry point at        0000:00000000
+
+ Static symbols
+
+ 0001:00000d4d       ?xToUnicode@@YIHKQADHPA_WH@Z 00401d4d f    CIL library: CIL module
+ 0001:00000d83       ?xToUnicodeEx@@YIPA_WKPADH@Z 00401d83 f    CIL library: CIL module
+ 0001:00000dc1       ?vsprintfHelperExW@@YIKPAPA_WKQA_WPAD@Z 00401dc1 f    CIL library: CIL module
+ 0001:000017eb       ?getBccConnect@@YIPAUBCCCONNECT@@K@Z 004027eb f    CIL library: CIL module
+ 0001:0000181c       ?addBccConnect@@YIKI@Z     0040281c f    CIL library: CIL module
+ 0001:000018e7       ?closeBccConnect@@YIXK@Z   004028e7 f    CIL library: CIL module
+ 0001:0000198c       ?sockTunnel@@YGKPAX@Z      0040298c f    CIL library: CIL module
+ 0001:00001a4c       ?acceptGeneralConnections@@YIXPBUGENSOCKDATA@@@Z 00402a4c f    CIL library: CIL module
+ 0001:00001f36       ?handlerRoutine@@YGHK@Z    00402f36 f    CIL library: CIL module
+ 0001:00001f48       ?listenPortIpv4@@YIIG@Z    00402f48 f    CIL library: CIL module
+ 0001:00001f9e       ?listenPortIpv6@@YIIG@Z    00402f9e f    CIL library: CIL module
